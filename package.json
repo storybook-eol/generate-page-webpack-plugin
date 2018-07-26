@@ -1,0 +1,17 @@
+{
+  "name": "generate-page-webpack-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/storybooks/generate-page-webpack-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/storybooks/generate-page-webpack-plugin/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/storybooks/generate-page-webpack-plugin.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "main": "index.js"
+}
