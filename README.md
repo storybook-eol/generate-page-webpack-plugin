@@ -43,7 +43,7 @@ export const config = {
 
 ### Config
 
-Config is data the plugin needs to operate, it will not be passed to them template
+Config is data the plugin needs to operate, it will not be passed to the template
 
 - **parser** - *required* - should be a ejs like module that can `compile` and invoke templates
 - **template** - *required* - the template to use to generate pages
@@ -83,7 +83,7 @@ The template will be provided with the data which is a combination of:
   **values are available under a variable called `compilation`**.
 - the dlls needed for the entrypoint
   **values are available under a variable called `dlls`**.
-  Dlls are and advanced use-case but with this plugin there should be no special setup required for them to be injected into the template. __But you do need to render them in the template__ (see example).
+  Dlls are an advanced use-case but with this plugin there should be no special setup required for them to be injected into the template. __But you do need to render them in the template__ (see example).
 - the options
   **values are available under a variable called `options`**.
   If the option was a function in the webpack config, by the time the data is injected into the template it will have been called and whatever the function returned for that property, that's what's injected into the template.
