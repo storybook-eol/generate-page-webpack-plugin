@@ -33,8 +33,7 @@ class GeneratePagePlugin {
         Array.from(entrypoints).forEach(([, value]) => {
           const dlls = getDLLs(value);
           const options = Object.entries(this.options).reduce(
-            (acc, [k, v]) => ({
-              ...acc,
+            (acc, [k, v]) => Object.assign(acc, {
               [k]: typeof v === 'function' ? v(value.name) : v,
             }),
             {}
