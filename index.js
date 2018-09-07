@@ -48,8 +48,10 @@ class GeneratePagePlugin {
           const data = Object.assign({}, value, {
             options: { ...options, ...value.options },
             compilation,
+            files: value.getFiles(),
             dlls,
           });
+
           const html = this.renderer(data);
 
           // eslint-disable-next-line no-param-reassign
