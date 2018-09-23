@@ -45,7 +45,7 @@ class GeneratePagePlugin {
               : this.config.filename || value.name;
 
           const data = Object.assign({}, value, {
-            options: { ...options, ...value.options },
+            options: Object.assign({}, options, value.options ),
             compilation,
             files: value.getFiles(),
             dlls,
