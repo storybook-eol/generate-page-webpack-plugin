@@ -1,6 +1,6 @@
 {
   "name": "generate-page-webpack-plugin",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "keywords": [],
   "homepage": "https://github.com/storybooks/generate-page-webpack-plugin#readme",
@@ -12,6 +12,6 @@
     "url": "git+https://github.com/storybooks/generate-page-webpack-plugin.git"
   },
   "license": "MIT",
-  "author": "",
+  "author": "Norbert de Langen <ndelangen@me.com>",
   "main": "index.js"
 }
