@@ -1,7 +1,5 @@
 # Generate Page Webpack Plugin
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/storybooks/generate-page-webpack-plugin.svg)](https://greenkeeper.io/)
-
 Generate HTML-pages for every webpack entrypoint
 
 ## Install
